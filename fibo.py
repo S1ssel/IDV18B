@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 fibo = int(input("Ingrese un numero que sea mayor a 5 y menor a 15: "))
+=======
+fibo = float(input("Ingrese un numero que sea mayor a 5 y menor a 15: "))
+>>>>>>> dev3
 
 if (fibo > 15):
 	print ("Te has pasado el rango, el numero se cambiara a 15")
