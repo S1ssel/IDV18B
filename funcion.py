@@ -5,6 +5,7 @@ def saludar():
 #Funcion de multiplicacion.
 def multi():
 	print("Escribe un numero: ")
+<<<<<<< HEAD
 	numX = float(input())
 	print("Escribe un segundo numero: ")
 	numY = float(input())
@@ -27,6 +28,25 @@ def division():
 	numX = float(input())
 	print("Escribe un numero: ")
 def pot():
+=======
+	numX = int(input())
+	print("Escribe un segundo numero: ")
+	numY = int(input())
+	result = numX * numY
+	print ("El resultado de la multiplicacion es: "+str(result))
+
+def division():
+	print("Escribe un numero: ")
+	numX = int(input())
+	print("Escribe un segundo numero: ")
+	numY = int(input())
+	result = numX / numY
+	print ("El resultado de la division es: "+str(result))
+
+def pot():
+	print("Escribe un numero: ")
+	numX = int(input())
+>>>>>>> 97c4ef7486b2c89148ab410e439e23ece9cb141b
 	result = numX * numX
 	print ("El cuadrado de tu numero es: "+str(result))
 
@@ -39,7 +59,10 @@ def main():
 	print ("Escribe 2 si quieres dividir.")
 	print ("Escribe 3 si quieres saber el cuadrado del numero.")
 	num1 = int(input())
+<<<<<<< HEAD
 	#Aquí vamos a usar if's. Dependiendo del numero que ponga el usuario lo llevara a las funciones correspondientes
+=======
+>>>>>>> 97c4ef7486b2c89148ab410e439e23ece9cb141b
 	if (num1 == 1):
 		multi ()
 	if (num1 == 2):
